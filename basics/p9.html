@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .combination{
+    background-color: red;
+    padding: 10px;
+  }
+   .combination ~h3{
+    background-color: green;
+    padding: 10px;
+   }
+   .combination ~p{
+    background-color: yellow;
+    padding: 10px;
+   }
+   .combination~div>h3{
+    background-color: khaki;
+    padding: 10px;
+    
+   }
+   .combination~div>p{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+   }
+</style>
+<body>
+  <center>
+    <h1>There are 4 different type of combination Selects</h1>
+  </center>
+  <hr>
+  <ol>
+    <li>Decendend selector(using space)</li>
+    <li>Child Selector (Using > Symbol)</li>
+    <li>Adjecent Sibling Selector(using + Symbol) </li>
+    <li>General Sibling Selector (Using Symbol)</li>
+  </ol>
+  <hr>
+  <h1>General Sibling Selector</h1>
+  <section class="combination" id="mysection">
+    <h3>This is thw heading</h3>
+    <p>this is a paragraph</p>
+    <h3>This is a heading</h3>
+    <p>This is a paragraph</p>
+
+    <div>
+      <h3>This is the heading</h3>
+      <p>this is the paragraph</p>
+    </div>
+
+    <h3>This is the heading </h3>
+    <p>This is the Paragraph</p>
+
+  </section>
+  <h3>Lorem ipsum dolor sit amet.</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere amet consequuntur iste pariatur maiores doloribus culpa aspernatur voluptate expedita laudantium.</p>
+  <h3>Lorem ipsum dolor sit amet.</h3>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi tempora consectetur numquam odio culpa nesciunt non obcaecati mollitia impedit totam.</p>
+  <div>
+    <h3>Lorem ipsum dolor sit amet.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, amet!</p>
+  </div>
+  <h3>Lorem ipsum dolor sit amet.</h3>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, voluptates!</p>
+</body>
+</html>

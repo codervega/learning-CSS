@@ -1,0 +1,20 @@
+.csscolor{
+  background-color: khaki;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px; 
+}
+.colors1{
+  background-color: yellow;
+  color: black;
+  border: 10px solid red;
+}
+.colors2{
+  background-color: #5faa15;/*we can add 2 more number for #5faa15(two Number)*/
+  border: 10ps solid rgba(0, 0, 0, 0);
+  color: white;
+}
+.colors3{
+  background-color: rgb(50, 50, 20, 0.2);
+  border: 10px solid green;
+}

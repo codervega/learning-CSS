@@ -1,0 +1,22 @@
+.jambotron{
+  background-color: green;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+.cssfont{
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: bold; /*This can be bolder in values from 100 to 900 or lighter*/
+  font-variant: small-caps; /**/
+}
+.cssText p{
+  font-size: 25px;
+  text-align: center; /*We are having different alignment like center end and many more*/
+  text-transform: capitalize; /*here also we have different property read about it*/
+  line-height: 4; /*Used to give space between the Lines*/
+  word-spacing: 5px;/*Used to give the space between the words*/
+  letter-spacing: 4px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-indent: 50px; /*it is used to give the space at the starting of the Line*/
+}
