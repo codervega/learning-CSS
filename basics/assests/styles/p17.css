@@ -1,0 +1,26 @@
+.odd-even-table, .odd-even-table th, .odd-even-table tr, .odd-even-table td{
+  border: 2px solid black;
+  padding: 30px;
+  border-collapse: collapse;
+}
+.odd-even-table tr:nth-child(odd)
+{
+  background-color: gray;
+}
+.odd-even-table:nth-child(even){
+  background-color: khaki;
+}
+.odd-even-table th{
+  background-color: chocolate;
+}
+.odd-even-table caption{
+  background-color: blanchedalmond;
+  padding: 20px;
+  caption-side: bottom;
+  font-weight: 900;
+}
+.odd-even-table td{
+  height: 300px;
+  vertical-align: center;
+  text-align: right;
+}

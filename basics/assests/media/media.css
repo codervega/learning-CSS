@@ -1,0 +1,18 @@
+@media (max-width:998px){
+  .navbar ul{
+    float: none;
+  }
+ }
+
+ @media(max-width:768px)
+ {
+  .navbar ul li{
+    display: block;
+  }
+  .navbar img{
+    width: 100px;
+  }
+  .navbar{
+    background-color: brown;
+  }
+ }

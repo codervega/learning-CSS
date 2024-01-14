@@ -1,0 +1,15 @@
+.jumbotron{
+  background-color: brown;
+}
+.list-maker-position>ol>li{
+  background-color: cadetblue;
+  padding: 20px;
+  margin-bottom: 20px;
+  list-style-position: inside; /* it can also be outside  */
+}
+.list-maker-position::marker{
+  font-size: 30px;
+  font-weight: 900px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+}

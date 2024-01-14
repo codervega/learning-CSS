@@ -1,0 +1,7 @@
+.jumbotron{
+  background-color: red;
+  border-radius: 10px;
+}
+.empty-cell{
+ empty-cells: hide;
+}

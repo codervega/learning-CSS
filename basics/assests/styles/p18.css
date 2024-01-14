@@ -1,0 +1,11 @@
+.table_layout{
+  width: 40%;
+  table-layout: fixed;
+}
+.table_layout td{
+  overflow: auto;
+}
+.table_layout, .table_layout th , .table_layout td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}

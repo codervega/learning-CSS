@@ -1,0 +1,31 @@
+.jumbotron{
+  background-color: brown;
+  color: #fff;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.navbar{
+  background-color: cadetblue;
+}
+.navbar ul{
+ float: right;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 20px;
+}
+.navbar ul li button{
+border: none;
+ padding: 5px;
+ border-radius: 5px;
+ background-color: #000;
+ color: white;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+ }
+
+
