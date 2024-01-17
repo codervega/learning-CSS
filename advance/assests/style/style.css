@@ -1,0 +1,55 @@
+.title{
+  background-color: teal;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 20px;
+}
+.common{
+  background-color: yellowgreen;
+  border: 3px solid red;
+  padding: 30px;
+  margin: 20px;
+}
+/* p1.html */
+.cssoutline{
+  outline: 10px groove black;
+}
+/* p3.html */
+.cssoverflow .textoverflow1{
+  line-height: 2;
+  font-size: 20px;
+  width: 300px;
+  height: 300px;
+  overflow: auto;
+}
+.cssoverflow .textoverflow2{
+  width: 300px;
+  height: 300px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* p4.html */
+.csswhitespace{
+  white-space: pre-wrap;
+}
+/* p5.html notice the changes in the display of element */
+.cssVisibilty1{
+  display: none;
+}
+.cssVisibilty2{
+  visibility: hidden;
+}
+/* p6.html */
+.break p{
+  width: 100px;
+  word-break: break-all;
+  background-color: red;
+  padding: 50px;
+}
+/* p7.html */
+.cssresize
+{
+  resize: both;/*resize both x and y axis*/
+  overflow: auto;
+}
